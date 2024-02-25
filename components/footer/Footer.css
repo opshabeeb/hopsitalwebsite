@@ -1,0 +1,35 @@
+.container1{
+    background-color: rgb(52, 52, 103);
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 40PX 20px 5px 20px;
+}
+.social{
+    margin-right: 20px;
+    
+}
+.services li{
+    text-align: left;
+    margin-left: -25px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 1s ease-in-out;
+}
+.services li span{
+    margin-right: 10px;
+}
+.copy{
+    margin-top: 20px;
+   margin-bottom: 0;
+}
+@media only screen and (max-width: 935px) {
+    .copy {
+      display: none;
+    }
+  }
+
+.services li:hover{
+    transform: translateX(10px);
+    color: rgb(40, 97, 219);
+}

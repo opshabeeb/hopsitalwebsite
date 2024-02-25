@@ -1,0 +1,46 @@
+.navitems{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.navitems:hover{
+    color: blue !important;
+   
+}
+.make{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -15px;
+}
+.top{
+    background-color: rgb(213, 229, 249);
+    align-items: center;
+    justify-content: space-between;
+    color: blue;
+    
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: blue;
+    border: none;
+    border-radius: 20%;
+    background-color: aliceblue;
+}
+@media only screen and (max-width: 935px) {
+    .top {
+      display: none;
+    }
+  }
+.drop{
+    margin: 0px 70px;
+}
+.link-text{
+    text-decoration: none;
+    list-style-type: none;
+    color: inherit;
+    font-family: inherit; /* Use the font family of the parent element */
+  font-size: inherit;   /* Use the font size of the parent element */
+  font-weight: inherit;
+  }

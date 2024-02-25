@@ -1,0 +1,20 @@
+.call-us{
+    background-color: aliceblue;
+}
+.form-container{
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+.Appoinment {
+    border: 1px solid skyblue;
+     border-radius: 20px;
+     padding: 7px 20px;
+     text-align: center;
+     background-color: #fff;
+     }
+.Appoinment-title {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
